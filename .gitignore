@@ -1,0 +1,43 @@
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+error_log
+
+# Cache
+*.cache
+*.tmp
+
+# Dependencies (if using composer)
+/vendor
+composer.lock
+
+# Database backups
+*.sql.bak
+*.sql.gz
+
+# Uploads (if implementing)
+/uploads/*
+!uploads/.gitkeep
+
+# Node modules & build outputs
+node_modules/
+dist/
+package-lock.json
+
+# Generated CSS (output only, input is tracked)
+public/css/output.css
+
+# Sessions (if not stored in DB)
+/sessions/*
+!sessions/.gitkeep
